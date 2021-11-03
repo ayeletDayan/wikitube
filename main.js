@@ -30,4 +30,5 @@ function onSearch() {
     gSearch = elSearch.value;
     console.log(gSearch);
     init();
+    onImg(gList[0]);
 }
