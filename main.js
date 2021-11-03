@@ -29,4 +29,5 @@ function onSearch() {
     var elSearch = document.querySelector('input.search')
     gSearch = elSearch.value;
     console.log(gSearch);
+    init();
 }
